@@ -109,7 +109,7 @@
 .page_num .pn_prev,
 .page_num .pn_next {
     width: 84px;
-}
+}   
 .page_num .current ,
 .page_num .dotted {
     border: 1px solid transparent;
@@ -120,6 +120,11 @@
     height: 36px;
     border: 1px solid #ccc;
     text-align: center;
+    transition: all 0.3s;
+}
+.page_skip input:hover {
+    width: 68px;
+    border: 1px solid skyblue;
 }
 .page_skip button {
     width: 54px;
